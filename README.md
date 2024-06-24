@@ -4,10 +4,15 @@
  This project creates a README generator, complete with title, table of contents, installation, usage, contributors, testing and a question section. In fact, this program was used to genrate this README! Just input your information and watch the magic happen.
 
   ##Table of Contents
+
  -[Installation](#installation)
+
  -[Usage](#usage) 
+
  -[Contributors](#contributors) 
+
  -[Testing](#testing)
+ 
  -[Questions](#questions)
 
   ##Installation 
