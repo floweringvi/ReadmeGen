@@ -1,7 +1,49 @@
 // TODO: Include packages needed for this application
-
+const inquirer = require('inquirer')
+const fs = require('fs')
+const genrateMarkdown = require ('./generateMarkdown')
 // TODO: Create an array of questions for user input
-const questions = [];
+const questions = [
+    inquirer 
+    .prompt([
+        {
+            type: "Input",
+            message: "What's the name of your project?",
+            name: "project-title"
+        },
+        {
+            type:"input",
+            message: "What is your project about?", 
+            name: "description"
+        }, 
+        {
+            type: "input",
+            message: "How do you install your program?", 
+            name:"installation"
+        },
+        {
+            type:"input",
+            message:"How do you use your program?",
+            name:"usage"
+        },
+        {
+            type:"input",
+            message:"Did you have any contributors?",
+            name:"contributions"
+        },
+        {
+            type:"input",
+            message:"How should one test your program?",
+            name:"testing"
+        },
+        {
+            type: "list",
+            message:"What kind of license is being used?",
+            name:"license",
+            choices: []
+        }
+    ])
+];
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {}
