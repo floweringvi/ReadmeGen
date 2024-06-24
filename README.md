@@ -22,7 +22,7 @@
   ##Usage 
 
    By answering questions you've been prompted to answer, you will build your own personal README for your own project.  
-   [Screenshot]('./assets/photots/Screenshot%202024-06-23%20at%2010.52.19 PM.png')  
+   ![Screenshot of terminal](/assets/photots/screenshot.png)  
 
   ##Contributors
 
