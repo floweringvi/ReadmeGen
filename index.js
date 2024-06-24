@@ -7,7 +7,7 @@ const questions = [
     inquirer 
     .prompt([
         {
-            type: "Input",
+            type: "input",
             message: "What's the name of your project?",
             name: "title"
         },
@@ -58,7 +58,7 @@ const questions = [
 // TODO: Create a function to write README file
 
 function writeToFile(fileName, data) {
-    fs.writeFile (fileName,data, (err) =>
+    fs.writeFile (fileName, data, (err) =>
     err ? console.error(err) : console.log("Here's your Readme!"))
 }
 
