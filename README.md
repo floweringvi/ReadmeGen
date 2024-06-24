@@ -1,1 +1,31 @@
-# README generator <br>\n  ##Description <br>\n  This project is a README genrator, complete with all thhe sections of a professional README <br> \n  ##Table of Contents <br>\n  -[Installation](#installation) <br>\n  -[Usage](#usage) <br>\n  -[Contributors](#contributors) <br>\n  -[Testing](#testing) <br>\n  -[Questions](#questions) <br>\n  ##Installation <br>\n  Fetch or Pull from the repo, ensuring you haev node installed on your PC.  <br>\n  ##Usage <br>\n  Follow prompts to build your personal README <br>\n  ##Contributors <br>\n  I did not  <br>\n  ##Testing <br>\n  Fetch or pull from the repo  <br>\n  // renderLicenseSection(Apache License 2.0); \n  ##Questions <br>\n  If you have any questions please see my Github, https://github.com/floweringvi or feel free to reach out\n  via email, stanzianiviolet@gmail.com. \n\n
+# README.md generator 
+ ##Description
+
+ This project creates a README generator, complete with title, table of contents, installation, usage, contributors, testing and a question section. In fact, this program was used to genrate this README! Just input your information and watch the magic happen.
+
+  ##Table of Contents
+ -[Installation](#installation)
+ -[Usage](#usage) 
+ -[Contributors](#contributors) 
+ -[Testing](#testing)
+ -[Questions](#questions)
+
+  ##Installation 
+
+ You can Fetch or Pull the code from the repo, ensure that you have NODE installed, intialize npm and instal inquirer. From there enter node index in the terminal and watch the magic happen.
+
+  ##Usage 
+
+   By answering questions you've been prompted to answer, you will build your own personal README for your own project.  
+
+  ##Contributors
+
+  There were no contributors for this project.
+
+   ##Testing 
+
+   Fetch or Pull from the repo located here:https://github.com/floweringvi/ReadmeGen and run the program yourself as highlighted in the intallation section of this README. 
+
+   ##Questions 
+   
+   If you have any questions please see my Github, https://github.com/floweringvi or feel free to reach out via email, stanzianiviolet@gmail.com. 
